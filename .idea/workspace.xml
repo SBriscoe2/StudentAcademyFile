@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b8407c8-a75b-4a4c-9a9b-03f75f81e2a8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuperheroAcademyToFile.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SuperheroAcademyToFile.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ShaBris/AcademyFile/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ShaBris/AcademyFile/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/ShaBris/AcademyFile/StudentDirectoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/ShaBris/AcademyFile/StudentDirectoryTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/ShaBris/AcademyFile/StudentDirectoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1218">
-              <caret line="42" column="63" selection-start-line="42" selection-start-column="63" selection-end-line="42" selection-end-column="63" />
+            <state relative-caret-position="221">
+              <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -124,7 +121,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553098224961" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553098722603" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -225,10 +222,12 @@
     <history-entry file="StudentDirectoryTest - 2019.03.20 at 15h 59m 46s.xml">
       <configuration name="StudentDirectoryTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StudentDirectoryTest - 2019.03.20 at 16h 10m 27s.xml">
+      <configuration name="StudentDirectoryTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="141" y="39" width="1825" height="2083" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25043178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -307,8 +306,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/ShaBris/AcademyFile/StudentDirectoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1218">
-          <caret line="42" column="63" selection-start-line="42" selection-start-column="63" selection-end-line="42" selection-end-column="63" />
+        <state relative-caret-position="221">
+          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
         </state>
       </provider>
     </entry>
