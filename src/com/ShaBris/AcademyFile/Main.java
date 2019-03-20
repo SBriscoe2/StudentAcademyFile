@@ -23,7 +23,7 @@ public class Main {
     private static String displayMenu(Scanner scanner) {
         System.out.println("Please select an option:");
         System.out.println("1. Enter new student details");
-        System.out.println("2. View All Appointments");
+        System.out.println("2. View all student entries on database");
         System.out.println("3. View Today's Appointments");
         System.out.println("X.  Exit System.");
         System.out.print("Option: ");
@@ -31,6 +31,8 @@ public class Main {
         switch (option) {
             case "1": addStudentDetail(scanner);
                 return option;
+            case "2": viewAllStudents();
+            return option;
             default: System.out.println("Invalid option, please re-enter.");
                 return option;
         }
@@ -40,17 +42,17 @@ public class Main {
         scanner.nextLine();
          System.out.println("Enter student details");
          System.out.println("Student Last Name:  ");
-         String lastName = scanner.nextLine();
+         String lastName = scanner.nextLine().toLowerCase();
          System.out.println("Student First Name: ");
-         String firstName = scanner.nextLine();
+         String firstName = scanner.nextLine().toLowerCase();
          System.out.println("Student Date of Birth(dd/mm/yyyy):  ");
          String birthDate = scanner.nextLine();
          System.out.println("Gender: ");
-         String gender = scanner.nextLine();
+         String gender = scanner.nextLine().toLowerCase();
          System.out.println("Alias");
-         String alias = scanner.nextLine();
+         String alias = scanner.nextLine().toLowerCase();
          System.out.println("Hero/Sidekick: ");
-         String partnerType = scanner.nextLine();
+         String partnerType = scanner.nextLine().toLowerCase();
          try {
              directory.addNewStudent(lastName, firstName, birthDate, gender,
                      alias, partnerType);
@@ -59,6 +61,15 @@ public class Main {
              return;
          }
          System.out.println("Student Details entered successfully.\n\n");
+     }
+
+     private static void viewAllStudents() {
+        for (StudentBase students: directory.getAllStudents()) {
+            System.out.println(String.format("%s %s, %s, %s", students.getStudentFirstName(), students.getStudentLastName(),
+                    students.getGender(), students.getAlias()));
+        }
+
+
      }
     }
 

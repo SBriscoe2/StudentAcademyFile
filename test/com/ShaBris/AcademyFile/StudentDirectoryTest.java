@@ -36,16 +36,30 @@ class StudentDirectoryTest {
         @Test
         @DisplayName("Check details have been added correctly")
         void checkEnteredStudentDetails () {
-            directory.addNewStudent("Howlett", "James", "18/06/1880",
-                    "Male", "Wolverine", "Hero");
+            directory.addNewStudent("howlett", "james", "18/06/1880",
+                    "male", "wolverine", "hero");
             List<StudentBase> studentHowell = directory.getAllStudents();
             StudentBase student = studentHowell.get(0);
 
             assertAll(
-                    () -> assertEquals("Howlett", student.getStudentLastName()),
-                    () -> assertEquals("James", student.getStudentFirstName()),
-                    () -> assertEquals("Male", student.getGender())
+                    () -> assertEquals("howlett", student.getStudentLastName()),
+                    () -> assertEquals("james", student.getStudentFirstName()),
+                    () -> assertEquals("male", student.getGender())
             );
         }
+    }
+
+    @Test
+    @DisplayName("Correctly show the details for a number of students")
+
+    void viewAllstudentsTest () {
+        directory.addNewStudent("Howlett", "James", "18/06/1880",
+                "Male", "Wolverine", "Hero");
+        directory.addNewStudent("Parker", "Peter", "16/04/2000",
+                "Male", "Spiderman", "Hero");
+        directory.addNewStudent("Grayson", "Dick", "25/12/2005",
+                "Male", "Robin", "Sidekick");
+        List<StudentBase> students = directory.getAllStudents();
+        assertEquals(3, directory.getAllStudents().size());
     }
 }
