@@ -1,6 +1,9 @@
-# Superhero Academy To File
+# Superhero Academy Student Directory(File)
 
-The purpose of this project is to create a student directory, which gives the administrator permissions to create, read and delete student records.
+### Introduction
+
+The purpose of this project is to create a student directory, which gives the administrator permissions to create, read and delete student records 
+and save to a file.
 
 ### Access to file
 
