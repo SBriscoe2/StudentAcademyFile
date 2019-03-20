@@ -4,7 +4,7 @@ The purpose of this project is to create a student directory, which gives the ad
 
 ### Access to file
 
-**
+https://github.com/SBriscoe2/StudentAcademyFile.git
 
 ### User stories
 
@@ -21,8 +21,9 @@ I want to add an appointment date and time to an existing student's record,
 So that I can view the dates and times of all appointments made.
 
 As a user,
-I want to search student's records for appointment scheduled for today,
-So that I can see the details of the student that has made an appointment and who the appointment is with.
+I want to search student's records for appointments scheduled for today,
+So that I can see the details of the student that has made an appointment, who the appointment is with
+and what time the appointment is scheduled for.
 
 As a user,
 I want to search student's records for appointments scheduled for today,
